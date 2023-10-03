@@ -1,0 +1,33 @@
+.form {
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  button {
+    margin-top: 26px;
+  }
+
+  label {
+    font-family: var(--font-family-secondary);
+  }
+
+  select {
+    width: 314px;
+  }
+}
+
+.formContainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 30px 20px 42px 20px;
+  width: 315px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .form {
+    width: 20%;
+    margin-left: 15.625rem;
+  }
+}

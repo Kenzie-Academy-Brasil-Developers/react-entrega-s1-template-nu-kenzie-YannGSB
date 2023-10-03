@@ -1,0 +1,49 @@
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 22.1875rem;
+  height: 9.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--grey-1);
+  margin: 0 auto;
+  border-left: 5px solid;
+
+  &.green {
+    border-color: var(--color-secondary);
+  }
+
+  &.grey {
+    border-color: var(--grey-2);
+  }
+}
+
+.liContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  gap: 1rem;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .listContainer {
+    width: 560px;
+    height: 87px;
+  }
+
+  .liContainer {
+    flex-direction: row;
+    justify-content: space-between;
+
+    div {
+      margin-right: 23px;
+    }
+  }
+}

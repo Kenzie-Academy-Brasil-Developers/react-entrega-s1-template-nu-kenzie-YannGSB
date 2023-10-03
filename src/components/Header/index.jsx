@@ -1,9 +1,12 @@
+import styles from "./style.module.scss";
+import nukenzieLogo from "../../assets/nukenzie.svg";
+
 export const Header = () => {
   return (
-    <header>
-      <h1>
-        <span>Nu</span> Kenzie
-      </h1>
+    <header className={styles.header}>
+      <div className={styles.headerContainer}>
+        <img src={nukenzieLogo} alt="Logo NuKenzie" />
+      </div>
     </header>
   );
 };
