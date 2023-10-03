@@ -4,7 +4,7 @@ import nukenzieLogo from "../../assets/nukenzie.svg";
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerContainer}>
+      <div>
         <img src={nukenzieLogo} alt="Logo NuKenzie" />
       </div>
     </header>

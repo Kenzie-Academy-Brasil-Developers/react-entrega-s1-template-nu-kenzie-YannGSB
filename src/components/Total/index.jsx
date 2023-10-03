@@ -5,7 +5,7 @@ export const Total = ({ financeCardList, totalValue }) => {
     return <></>;
   }
   return (
-    <aside className={styles.totalContainer}>
+    <aside>
       <div className={styles.divContainer}>
         <div className={styles.styleContainer}>
           <h3 className="title three">Valor total:</h3>

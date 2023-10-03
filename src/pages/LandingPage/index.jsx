@@ -40,7 +40,7 @@ export const LandingPage = () => {
     <>
       <Header />
       <main>
-        <section>
+        <section className="mainSection">
           <FinanceForm addCard={addCard} />
           <Total financeCardList={financeCardList} totalValue={totalValue} />
         </section>
