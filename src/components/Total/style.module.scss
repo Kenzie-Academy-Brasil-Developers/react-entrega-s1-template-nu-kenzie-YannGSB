@@ -1,0 +1,19 @@
+.divContainer {
+  width: 315px;
+  height: 67px;
+  margin: 0 auto;
+  margin-top: 19px;
+  border-radius: 4px;
+  border: 1px solid var(--grey-2);
+  padding: 20px;
+}
+
+.styleContainer {
+  display: flex;
+  justify-content: space-between;
+
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+}
