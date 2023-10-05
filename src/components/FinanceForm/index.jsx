@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Input } from "../Input";
-import { Select } from "../Select";
+import { Input } from "./Input";
+import { Select } from "./Select";
 import { options } from "../../data/options";
 import styles from "./style.module.scss";
 
