@@ -21,6 +21,7 @@ export const Input = ({
         placeholder={placeholder}
         value={value}
         onChange={(e) => setValue(e.target.value)}
+        required
       />
       {small ? <small className="example">{SmallText}</small> : null}
     </div>
