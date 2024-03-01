@@ -22,3 +22,8 @@ Nu Kenzie é uma aplicação de gerenciamento de gastos, projetada para simplifi
    - Adição e exclusão de transações de forma intuitiva.
    - Cálculo automático do total, considerando entradas e saídas.
    - Utilização de ternários para criar comportamentos condicionais e aprimorar a experiência do usuário.
+
+### Informações Adicionais:
+
+- **Deploy no Vercel:**
+  - [Link do Deploy](https://react-entrega-s1-template-nu-kenzie-yann-gsb.vercel.app/)
